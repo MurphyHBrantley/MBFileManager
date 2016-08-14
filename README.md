@@ -52,5 +52,5 @@ Add `#import "MBFileManager.h"` to your class to access the `MBFileManager` meth
 
 **Write Data Types:**
 
-    ***String***
+*String*
     [MBFileManager writeString:@"Test String" toFile:@"MyTestFile"];
