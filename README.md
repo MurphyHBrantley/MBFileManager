@@ -31,57 +31,79 @@ Add `#import "MBFileManager.h"` to your class to access the `MBFileManager` meth
 **Create File:**
 
 ```objc
-    [MBFileManager createFileWithName:@"MyTestFile"];
+[MBFileManager createFileWithName:@"MyTestFile"];
 ```
 
 **Delete File:**
 
-    [MBFileManager deleteFileWithName:@"MyTestFile"];
+```objc
+[MBFileManager deleteFileWithName:@"MyTestFile"];
+```
 
 **Rename File:**
 
-    [MBFileManager renameFileWithName:@"MyTestFile" toName:@"MyNewNameFile"];
+```objc
+[MBFileManager renameFileWithName:@"MyTestFile" toName:@"MyNewNameFile"];
+```
 
 **List All Files:**
 
-    [MBFileManager listAllLocalFiles];
+```objc
+[MBFileManager listAllLocalFiles];
+```
 
 **Read File:**
 
-    [MBFileManager readFileWithName:@"MyTestFile"];
+```objc
+[MBFileManager readFileWithName:@"MyTestFile"];
+```
 
 **Check File Exists:**
 
-    [MBFileManager checkFileExists:@"MyTestFile"];
+```objc
+[MBFileManager checkFileExists:@"MyTestFile"];
+```
 
 **Write Data Types:**
 
 *String*
 
-    [MBFileManager writeString:@"Test String" toFile:@"MyTestFile"];
+```objc
+[MBFileManager writeString:@"Test String" toFile:@"MyTestFile"];
+```
 
 *Array*
 
-    NSArray *array = [[NSArray alloc] initWithObjects:@"One",@"Two",@"Three", nil];
-    [MBFileManager writeArray:array toFile:@"MyTestFile"];
+```objc
+NSArray *array = [[NSArray alloc] initWithObjects:@"One",@"Two",@"Three", nil];
+[MBFileManager writeArray:array toFile:@"MyTestFile"];
+```
 
 *Image*
 
-    [MBFileManager writeImage:[UIImage imageNamed:@"myImage.png"] toFile:@"MyTestFile"];
+```objc
+[MBFileManager writeImage:[UIImage imageNamed:@"myImage.png"] toFile:@"MyTestFile"];
+```
 
 **Read Data Types:**
 
 *String*
 
-    NSString *myString = [MBFileManager readStringFromFileWithName:@"MyTestFile"];
+```objc
+NSString *myString = [MBFileManager readStringFromFileWithName:@"MyTestFile"];
+```
 
 *Array*
 
-    NSArray *myArray = [MBFileManager readArrayFromFileWithName:@"MyTestFile"];
+```objc
+NSArray *myArray = [MBFileManager readArrayFromFileWithName:@"MyTestFile"];
+```
 
 *Image*
 
-    UIImage *myImage = [MBFileManager readImageFromFileWithName:@"MyTestFile"];
+```objc
+UIImage *myImage = [MBFileManager readImageFromFileWithName:@"MyTestFile"];
+```
 
 ##License
 Released under [MIT License](LICENSE).
