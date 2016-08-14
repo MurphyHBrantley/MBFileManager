@@ -22,9 +22,9 @@ Manual Installation
 
 ## Usage
 
-- add `#import "MBFileManager.h"` to your class to access the `MBFileManager` methods
+Add `#import "MBFileManager.h"` to your class to access the `MBFileManager` methods
 
 ### Code Examples
 
-- this is a code example
+
 
