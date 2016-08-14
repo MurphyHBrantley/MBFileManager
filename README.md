@@ -23,6 +23,7 @@ Manual Installation
 ## Usage
 
 Add `#import "MBFileManager.h"` to your class to access the `MBFileManager` methods
+
 *NOTE:* You must create a file before reading/writing to that file.  Use the `checkFileExists:` method to make sure the file exists before using the file.  You will get an error message in the console if you try to access a file that does not exist.
 
 ### Code Examples
