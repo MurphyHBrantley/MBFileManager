@@ -34,5 +34,22 @@ Add `#import "MBFileManager.h"` to your class to access the `MBFileManager` meth
 
     [MBFileManager deleteFileWithName:@"MyTestFile"];
 
+**Rename File:**
+
+    [MBFileManager renameFileWithName:@"MyTestFile" toName:@"MyNewNameFile"];
+
+**List All Files:**
+
+    [MBFileManager listAllLocalFiles];
+
+**Read File:**
+
+    [MBFileManager readFileWithName:@"MyTestFile"];
+
+**Check File Exists:**
+
+    [MBFileManager checkFileExists:@"MyTestFile"];
+
+
 
 
