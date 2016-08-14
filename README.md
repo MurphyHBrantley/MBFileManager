@@ -9,3 +9,13 @@ MBFileManager is an Objective-C iOS File Manager class is built on top of the NS
 
 Manual Installation
 - copy `MBFileManager.h` and `MBFileManager.m` into your project
+
+## Features
+
+- **Create** files in the Documents Directory
+- **Delete** files from the Documents Directory
+- **Rename** files in the Documents Directory
+- **List** all files in the Documents Directory
+- **Read** files in the Documents Directory
+- **Check** if files exist in the Documents Directory
+- **Write** several different data types to files in the Documents Directory, including Strings, Arrays, and Images
