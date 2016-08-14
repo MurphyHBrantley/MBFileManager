@@ -30,7 +30,9 @@ Add `#import "MBFileManager.h"` to your class to access the `MBFileManager` meth
 
 **Create File:**
 
+```objc
     [MBFileManager createFileWithName:@"MyTestFile"];
+```
 
 **Delete File:**
 
