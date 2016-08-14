@@ -65,5 +65,16 @@ Add `#import "MBFileManager.h"` to your class to access the `MBFileManager` meth
 
     [MBFileManager writeImage:[UIImage imageNamed:@"myImage.png"] toFile:@"MyTestFile"];
 
+**Read Data Types:**
 
+*String*
 
+    NSString *myString = [MBFileManager readStringFromFileWithName:@"MyTestFile"];
+
+*Array*
+
+    NSArray *myArray = [MBFileManager readArrayFromFileWithName:@"MyTestFile"];
+
+*Image*
+
+    UIImage *myImage = [MBFileManager readImageFromFileWithName:@"MyTestFile"];
