@@ -55,3 +55,11 @@ Add `#import "MBFileManager.h"` to your class to access the `MBFileManager` meth
 *String*
 
     [MBFileManager writeString:@"Test String" toFile:@"MyTestFile"];
+
+*Array*
+
+    NSArray *array = [[NSArray alloc] initWithObjects:@"One",@"Two",@"Three", nil];
+	[MBFileManager writeArray:array toFile:@"MyTestFile"];
+
+
+
