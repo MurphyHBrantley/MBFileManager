@@ -19,3 +19,12 @@ Manual Installation
 - **Read** files in the Documents Directory
 - **Check** if files exist in the Documents Directory
 - **Write** several different data types to files in the Documents Directory, including Strings, Arrays, and Images
+
+## Usage
+
+- add `#import "MBFileManager.h"` to your class to access the `MBFileManager` methods
+
+### Code Examples
+
+- this is a code example
+
