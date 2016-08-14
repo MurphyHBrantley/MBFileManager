@@ -59,7 +59,11 @@ Add `#import "MBFileManager.h"` to your class to access the `MBFileManager` meth
 *Array*
 
     NSArray *array = [[NSArray alloc] initWithObjects:@"One",@"Two",@"Three", nil];
-	[MBFileManager writeArray:array toFile:@"MyTestFile"];
+    [MBFileManager writeArray:array toFile:@"MyTestFile"];
+
+*Image*
+
+    [MBFileManager writeImage:[UIImage imageNamed:@"myImage.png"] toFile:@"MyTestFile"];
 
 
 
