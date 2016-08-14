@@ -24,7 +24,7 @@ Manual Installation
 
 Add `#import "MBFileManager.h"` to your class to access the `MBFileManager` methods
 
-### Code Examples
+### Code Examples:
 
 **Create File**
 
