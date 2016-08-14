@@ -80,3 +80,6 @@ Add `#import "MBFileManager.h"` to your class to access the `MBFileManager` meth
 *Image*
 
     UIImage *myImage = [MBFileManager readImageFromFileWithName:@"MyTestFile"];
+
+##License
+Released under [MIT License](LICENSE).
