@@ -50,6 +50,7 @@ Add `#import "MBFileManager.h"` to your class to access the `MBFileManager` meth
 
     [MBFileManager checkFileExists:@"MyTestFile"];
 
+**Write Data Types:**
 
-
-
+    ***String***
+    [MBFileManager writeString:@"Test String" toFile:@"MyTestFile"];
